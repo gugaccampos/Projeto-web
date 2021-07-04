@@ -1,0 +1,62 @@
+*{
+    font-family: 'Bone Nova', sans-serif;
+}
+
+html, body{
+    margin: 20px;
+    background-color: #4c4ca3;
+}
+
+.foto{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+.up{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-up{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.right{
+    height: 375px;
+    width: 820px;
+    position: absolute;
+    bottom: 30px;
+    right: 16px;
+}
+
+.right-up{
+    display: block;
+    text-align: left;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.center{
+    display: flex;
+    justify-content: space-between;
+}
+
+.center-left{
+    flex-direction: column;
+}
+
+.center-right{
+    display: block;
+    text-align: left;
+    flex-direction: column;
+    align-items: flex-end;
+}
