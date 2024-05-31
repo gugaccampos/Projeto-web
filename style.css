@@ -1,0 +1,203 @@
+*{
+    font-family: 'Bone Nova', sans-serif;
+}
+
+html, body{
+    margin: 20px;
+    background-image: url(./assets/background.jpg);
+    background-size: cover;
+    color: antiquewhite;
+}
+
+
+
+.foto{
+    height: 16rem;
+    width: 16rem;
+    border-radius: 50%;
+}
+.up{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-up{
+    margin-right: 1rem;
+}
+
+.right-up{
+    display: flex;
+    margin-right: 7rem;
+    margin-left: 1rem;
+}
+
+
+.middle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.middle-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 1rem;
+}
+
+.middle-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.middle-right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 2rem;
+    margin-left: 1rem;
+}
+
+.down{
+    display: flex;
+    justify-content: space-between;
+}
+
+.down-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 1rem;
+    margin-bottom: 10rem;
+    
+}
+
+.down-middle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.down-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 1rem;
+}
+
+.abilities{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    color: blueviolet;
+}
+
+.nome{
+    height: 2rem;
+    width: 22rem;
+    font-size: 1rem;
+    border-radius: 1.25rem;
+    background-color: black;
+    color: antiquewhite;
+}
+
+.email{
+    height: 2rem;
+    width: 22rem;
+    font-size: 1rem;
+    border-radius: 1.25rem;
+    background-color: black;
+    color: antiquewhite;
+}
+
+.mensagem{
+    font-size: 1rem;
+    border-radius: 1.25rem;
+    background-color: black;
+    color: antiquewhite;
+}
+
+.botao{
+    width: 7.5rem;
+    height: 2rem;
+    font-size: 1rem;
+    border-radius: 1.25rem;
+    background-color: black;
+    color: antiquewhite;
+    cursor: pointer;   
+}
+
+.botao:hover {
+    background-color: cyan;
+    color: black;
+ }
+
+.python{
+    height: 3rem;
+    width: 3rem;
+}
+
+.java{
+    height: 3rem;
+    width: 2.35rem;
+}
+
+.c{
+    height: 3rem;
+    width: 2.5rem;
+}
+
+.html{
+    height: 3rem;
+    width: 3rem;
+}
+
+.css{
+    height: 3rem;
+    width: 2.5rem;
+}
+
+.js{
+    height: 3rem;
+    width: 3rem;
+}
+
+.react{
+    height: 3rem;
+    width: 3.2rem;
+}
+
+.node{
+    height: 3rem;
+    width: 3rem;
+}
+
+.sql{
+    height: 3rem;
+    width: 4rem;
+}
+
+.mongodb{
+    height: 3rem;
+    width: 3rem;
+}
+
+.git{
+    height: 3rem;
+    width: 3rem;
+}
+
+.angular{
+    height: 3rem;
+    width: 3rem;
+}
